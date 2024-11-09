@@ -16,6 +16,7 @@ ss-headless-cms
 - Next.js
 - TailwindCSS
 - Prisma
+- NextAuth
 - Cloudflare D1
 - Cloudflare Pages
 
