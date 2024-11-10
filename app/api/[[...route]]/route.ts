@@ -16,8 +16,12 @@ type Post = Prisma.PostGetPayload<typeof Posts>;
 
 app
   .get("/", async (c) => {
-    const posts = await prisma.post.findMany();
-    return c.json(posts);
+    try {
+      const posts = await prisma.post.findMany();
+      return c.json(posts);
+    } catch (e) {
+      return c.json({ error: e }, 500);
+    }
   })
   .post("/", async (c) => {
     try {
