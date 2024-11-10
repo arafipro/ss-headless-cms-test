@@ -56,3 +56,10 @@ ss-headless-cms
 ## 今後、追加したい機能
 
 - AI記事自動作成機能
+
+# Prisma Docs
+
+## Cloudflare D1
+
+[Cloudflare D1](https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1)
+[Deploy to Cloudflare Workers & Pages](https://www.prisma.io/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare#cloudflare-d1)
