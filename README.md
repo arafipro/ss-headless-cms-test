@@ -63,3 +63,7 @@ ss-headless-cms
 
 [Cloudflare D1](https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1)
 [Deploy to Cloudflare Workers & Pages](https://www.prisma.io/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare#cloudflare-d1)
+
+## Prisma validator
+
+[Operating against partial structures of your model types](https://www.prisma.io/docs/orm/prisma-client/type-safety/operating-against-partial-structures-of-model-types)
