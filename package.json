@@ -13,6 +13,8 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
+    "@prisma/adapter-d1": "^5.22.0",
+    "@prisma/client": "5.22.0",
     "hono": "^4.6.9",
     "next": "^15.0.3",
     "prisma": "^5.22.0",
