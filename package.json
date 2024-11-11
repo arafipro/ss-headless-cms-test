@@ -15,11 +15,16 @@
   "dependencies": {
     "@prisma/adapter-d1": "^5.22.0",
     "@prisma/client": "5.22.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "hono": "^4.6.9",
+    "lucide-react": "^0.456.0",
     "next": "^15.0.3",
     "prisma": "^5.22.0",
     "react": "^19.0.0-rc-5c56b873-20241107",
-    "react-dom": "^19.0.0-rc-5c56b873-20241107"
+    "react-dom": "^19.0.0-rc-5c56b873-20241107",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "1",
